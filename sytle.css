@@ -1,0 +1,84 @@
+p {
+    text-align: center;
+    color: #8F0D07;
+}
+
+h1 {
+    text-align: left;
+    color:rgb(22, 40, 145);
+}
+
+#texto1{color: rgb(103, 14, 121); font-size: 2em; font-family: 'Signika Negative', sans-serif;}
+#texto2{color: #62941c; font-size: 1.5em;}
+
+.cuadro {
+    background-color: deepskyblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+#cuadro1:hover { 
+    background-color: yellow;
+
+}
+
+ul:first-child {
+    color: #c07608;
+}
+
+li:first-child {
+    color: #c07608;
+}
+
+#input1:focus {
+   background-color: darkblue;
+}
+
+#color1{
+    background-color: rgb(50, 86, 1, 0.5)
+}
+
+#color2{
+    background-color: #8700A6
+}
+
+#color3{
+    background-color: crimson;
+}
+
+#color4{
+    background-color: rgb(9, 45, 51);
+}
+
+.colores{
+    padding: 30px;
+    margin: 30px;
+    display:block ;
+}
+
+.contenedor {
+
+    height: 400px;
+    width: 600px;
+    border: 5px inset crimson;
+    border-radius: 25px;
+    background-image: url(perro1.jpg);
+    background-size: cover;
+    
+    
+}
+
+h3 {
+    text-align: left; font-family: 'Signika Negative', sans-serif;
+    color:yellow;
+    font-size: 3em;
+    text-align: right;
+}
