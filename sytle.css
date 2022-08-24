@@ -74,6 +74,7 @@ li:first-child {
     background-size: cover;
     
     
+    
 }
 
 h3 {
@@ -81,4 +82,128 @@ h3 {
     color:yellow;
     font-size: 3em;
     text-align: right;
+}
+
+/* clase 3 */
+
+.cuadro1 {
+
+    width: 100%;
+    height: 1000px;
+    margin: 10px;
+    /* background-color: red; */
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("./imagenes/vader.jpg"); */
+    /* background-size: cover; */
+    background: rgb(0,0,0);
+    background: linear-gradient(120deg, rgba(0,0,0,0.5) 0%, rgba(50,10,98,0.5) 35%, rgba(83,5,23,0.5) 69%, rgba(255,0,53,0.5) 100%), url("./imagenes/vader.jpg");
+    background-size: cover;
+    /* para hacer degradados */
+    /* para colocar degradado en un angulo es #(angulo)deg */
+
+    /* background-image: border-radius(circulo,white,red,black); */
+
+}
+
+.cuadro2 {
+
+    width: 150px;
+    height: 150px;
+    margin: 0px;
+    background-color: black;
+    background: linear-gradient(120deg, rgba(0,0,0,0.5) 0%, rgba(50,10,98,0.5) 35%, rgba(83,5,23,0.5) 69%, rgba(255,0,53,0.5) 100%), url("./imagenes/pato-caminando.gif");
+    background-size: cover;
+
+    animation-name: mi_animación_parte1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+
+}
+
+.contenedor-gif{
+    height: 800px;
+    width: 100%;
+}
+
+
+@keyframes mi_animación_parte1{
+
+    0%{
+        transform: translateX(0px) translateY(0px);
+
+        /* background-color: rgba(0,0,0,1); */
+    }
+
+    25%{
+
+        transform: translateX(400px) translateY(0px);
+        /* background-color: rgba(50,10,98,1); */
+    }
+    50%{
+        
+        transform: translateX(400px) translateY(600px);
+        /* background-color: rgba(83,5,23,1); */
+        
+    }
+
+    75%{
+        transform:  translateX(0px) translateY(600px);
+        /* background-color: rgba(255,0,53,0.4) */
+    }
+
+    100%{
+        transform:  translateX(0px) translateY(0px);
+    }
+}
+
+.cuadro3{
+
+    height: 200px;
+    width: 200px;
+    border: 2px black;
+    background-color: aqua;
+    margin: 10px 30px 40px 20px;
+    box-sizing: border-box;
+    
+}
+
+.cuadro4{
+
+    /* display:inline ; */
+    height: 200px;
+    width: 200px;
+    border: 2px black;
+    background-color:slateblue;
+    margin: 10px 30px 40px 20px;
+    box-sizing: content-box;
+    
+}
+
+.circulo1{
+
+    border-radius: 100%;
+    position: fixed;
+    right: 30px;
+    /* top: 30px; */
+    bottom: 0px;
+    height: 60px;
+    width: 60px;
+    background-color: green;
+    margin: 10px 30px 40px 20px;
+    
+
+
+    
+}
+
+.iconito{
+
+    margin: 10px 30px 70px 20px;
+    box-shadow: 4px 3px 10px 10px;
+    color: white;
+    height: 60px;
+    width: 60px;
+    padding: auto;
+   
+    
 }
