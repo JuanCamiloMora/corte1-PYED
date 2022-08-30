@@ -1,0 +1,269 @@
+h1 {
+    text-align: center;
+    color:rgb(15, 34, 143);
+}
+
+h2{
+    text-align: center;
+    color:rgb(15, 34, 143);
+}
+
+h3 {
+    text-align: center;
+    color:rgb(17, 45, 204);
+}
+
+li{
+    text-align: center;
+    color: indianred;
+    font-family:  "Gill Sans Extrabold", Helvetica, sans-serif;
+}
+
+#progreso{
+    text-align: center;
+    color:rgb(204, 61, 17);
+}
+
+#barra2{
+    background-color: crimson;
+}
+
+#texto1{
+
+    color: #089BA8;
+    font-size: 1em; 
+    font-family:  "Gill Sans Extrabold", Helvetica, sans-serif;
+}
+
+.contenedor{
+
+    height: 600px;
+    width: 1200px;
+    border: 2px inset rgb(105, 9, 28);
+    border-radius: 25px;
+    text-align : center;
+    background-image: url(/imagenes/gabriel.jpg);
+    display: block;
+    margin: auto;
+    background-size: cover;
+    box-shadow: 10px 10px 10px lightcoral;
+}
+
+#texto2{
+
+    color: #BE00F0;
+    font-size: 1em; 
+    font-family:  "Georgia", serif, sans-serif;
+    
+}
+
+#obra1{
+    text-align: center;
+    background-color: rgb(149, 255, 0);
+    align-content: flex-start;
+    
+}
+
+#obra2{
+    text-align: center;
+    background-color: #00ffa2;
+    align-content: flex-start;
+    
+}
+
+#obra3{
+    text-align: center;
+    background-color: rgb(0, 200, 255);
+    align-content: flex-start;
+
+}
+
+#obra4{
+    text-align: center;
+    background-color: rgb(0, 115, 255);
+    align-content: flex-start;
+}
+
+.colores{
+    padding: 50px;
+    margin: 50px;
+    display:block ;
+}
+
+
+.cuadro1{
+    width: 90%;
+    height: 550px;
+    margin: 10px;
+    background: rgb(0,0,0);
+    background: linear-gradient(80deg, rgba(0,0,0,0.5) 25%, rgba(11, 0, 69, 0.5) 60%, rgba(14, 52, 108, 0.5)80%,rgb(79, 226, 246) 100%), url("./imagenes/portadas.png");
+    display: block;
+    margin: auto;
+    background-size: cover;
+    box-shadow: 10px 10px 10px lightseagreen;
+    align-content: flex-end;
+}
+
+#tabla{
+    text-align: center;
+    background-size: cover;
+    
+    /* display: block; */
+}
+
+.circulo1{
+
+    border-radius: 50%;
+    position: fixed ;
+    right: 10px;
+    /* top: 30px; */
+    bottom: 10px;
+    height: 40px;
+    width: 40px;
+    /* padding: 10px; */
+    background-color: rgb(200, 86, 4);
+    align-items: center;
+    margin: 30px 30px 40px 10px;   
+    /* display: block; */
+    margin: auto; 
+    
+}
+
+#circulo12{
+    text-align: center;
+    background-size: cover;
+    box-shadow: 10px 5px 5px rgba(178, 69, 32, 0.57);
+}
+
+.main{
+    text-align: center;
+    background-size: cover;
+}
+
+
+.cuadro2{
+
+    width: 150px;
+    height: 150px;
+    margin: 0px;
+    background-color: black;
+    background: linear-gradient(120deg, rgba(104, 104, 104, 0.5) 0%, rgba(98, 22, 10, 0.146) 35%, rgba(149, 70, 10, 0.508) 69%, rgba(255, 111, 0, 0.845) 100%), url("./imagenes/1955106_d24dc.gif");
+    background-size: cover;
+
+    animation-name: mi_animación_parte1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.contenedor-gif{
+    height: 80px;
+    width: 100%;
+}
+
+@keyframes mi_animación_parte1{
+
+    0%{
+        transform: translateX(0px) translateY(0px);
+
+        /* background-color: rgba(0,0,0,1); */
+    }
+
+    50%{
+
+        transform: translateX(1720px) translateY(0px);
+        /* background-color: rgba(50,10,98,1); */
+    }
+    100%{
+        
+        transform: translateX(0px) translateY(0px);
+        /* background-color: rgba(83,5,23,1); */
+        
+    }
+
+    
+}
+
+
+.cuadro3{
+
+    width: 150px;
+    height: 150px;
+    margin: 0px;
+    background-color: black;
+    background: linear-gradient(120deg, rgba(104, 104, 104, 0.5) 0%, rgba(98, 22, 10, 0.146) 35%, rgba(149, 70, 10, 0.508) 69%, rgba(255, 111, 0, 0.845) 100%), url("./imagenes/1955106_d24dc.gif");
+    background-size: cover;
+
+    animation-name: mi_animación_parte2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    flex-wrap: wrap;
+    
+}
+
+.contenedor-gif1{
+    height: 150px;
+    width: 100%;
+}
+
+@keyframes mi_animación_parte2{
+
+    0%{
+        transform: translateX(0px) translateY(0px);
+
+        /* background-color: rgba(0,0,0,1); */
+    }
+
+    50%{
+
+        transform: translateX(1720px) translateY(0px);
+        /* background-color: rgba(50,10,98,1); */
+    }
+    100%{
+        
+        transform: translateX(0px) translateY(0px);
+        /* background-color: rgba(83,5,23,1); */
+        
+    }
+
+    
+}
+
+.img{
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+
+}
+/* 
+div{
+    float: left;
+    padding: 15px;
+}
+
+.div1{
+    background: red;
+}
+
+.div2{
+    background: blue;
+}
+
+.div3{
+    background: yellow;
+} */
+
+
+#input:date{
+
+    display: block;
+    margin: auto;
+    width: auto;
+    box-sizing: border-box;
+    border:  2px solid;
+    font-size: 6px;
+    background-color: coral;
+    padding: 12px 12px 12px 24px;
+    align-items: center;
+}
