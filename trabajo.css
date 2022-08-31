@@ -42,7 +42,7 @@ li{
     border: 2px inset rgb(105, 9, 28);
     border-radius: 25px;
     text-align : center;
-    background-image: url(/imagenes/gabriel.jpg);
+    background-image: url(./imagenes/gabriel.jpg);
     display: block;
     margin: auto;
     background-size: cover;
@@ -55,6 +55,15 @@ li{
     font-size: 1em; 
     font-family:  "Georgia", serif, sans-serif;
     
+}
+
+#biografia{
+
+    color: red;
+    text-align: center;
+    font-size: 3em; 
+    font-family:  "Georgia", serif, sans-serif;
+
 }
 
 #obra1{

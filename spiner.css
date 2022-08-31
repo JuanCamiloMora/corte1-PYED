@@ -1,0 +1,102 @@
+
+
+.cuadro1{
+
+    width: 380px;
+    height: 550px;
+    margin: 20px;
+    background: url(./imagenes/cartabocaabajo.jpg);
+    background-size: cover;
+
+    animation-name: mi_animación_yugioh;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.contenedor{
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes mi_animación_yugioh{
+
+    0%{
+        transform: translate(0px) translateY(0px);
+    }
+
+    20%{
+
+        transform:translateX(300px) translateY(0px) scale(0.5) rotate(1);
+        /* transform: rotate(0.5turn); */
+    }
+
+    40%{
+        
+
+        transform: translateX(550px) translateY(0px) rotate(0.5turn) scale(0.5) ;
+    }
+
+    60%{
+        
+        transform: translateX(600px) translateY(0px) rotate(1turn) scale(0.2);
+    }
+
+    80%{
+        transform: translateX(650px) translateY(0px) rotate(0.5turn) scale(0.1);
+    }
+
+    100%{
+        transform: translateX(700px) translateY(0px) rotate(1turn) scale(0);
+    }
+
+}
+
+/* segunda parte de la animación */
+
+
+.cuadro2{
+
+    width: 380px;
+    height: 550px;
+    margin: 20px;
+    background: url(./imagenes/magoosc.jpg);
+    background-size: cover;
+
+    animation-name: mi_animación_yugioh2;
+    animation-delay: 5s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.contenedor2{
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes mi_animación_yugioh2{
+
+    0%{
+        transform: translateX(700px) translateY(0px) rotate(1) scale(0);
+    }
+
+    20%{
+
+        transform:translateX(750px) translateY(0px) scale(0.1) rotate(0.5);
+    }
+
+    40%{
+        transform:translateX(800px) translateY(0px) scale(0.2) rotate(1);
+    }
+
+    60%{
+        transform:translateX(850px) translateY(0px) scale(0.5) rotate(0.5);
+    }
+
+    80%{
+        transform:translateX(900px) translateY(0px) scale(0.8) rotate(0.25);
+    }
+
+    100%{
+        transform:translateX(950px) translateY(0px) scale(1) rotate(1);
+    }
+}

@@ -207,3 +207,77 @@ h3 {
    
     
 }
+
+/* CLASE 4 */
+
+#bloque{
+    text-align: center;
+    text-decoration-line: overline;
+    text-decoration-color: red;
+}
+
+
+/* espacio entre palabras/ espacio entre lineas /colocar sombras  */
+.parrafo{
+    word-spacing: 5px;
+    line-height: 1.5;
+    text-shadow: 2px 2px 0.5px rgba(0, 0, 0, 0.5);
+    /* text-shadow: 2px 2px 0.5px black, 2px 2px 1px green; */
+    /* font-size-adjust: 20px; */
+    font-style: italic; 
+}
+
+.parrafo2{
+    text-align: center;
+    font-style: italic;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.listaC{
+
+    list-style-type: square ;
+}
+
+.ciudades{
+    list-style-type: circle;
+    list-style-type: lower-roman;
+
+}
+
+/* para hace una caja con información (tabla con varios espacios)*/
+#customers{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th{
+    border: 1px solid red;
+    padding: 8px;
+}
+
+#customers tr:hover {background-attachment: green;}
+
+#customers th {
+    
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #10078f;
+    color: white;
+}
+
+/* para hace una caja con información (tabla con varios espacios)*/
+
+/*jerarquia el id mayor que class*/
+#jugador{
+    color: blue
+}
+.player{
+    color: red;
+}
+
+h6{
+    color: green;
+    
+}
