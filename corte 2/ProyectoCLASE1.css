@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+html {
+    box-sizing: border-box;
+    background: #a23a3ac8;
+    padding: 20px 50px
+
+  }
+  
+
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+ 
+form {
+  margin: 1rem auto;
+  max-width: 750px;
+}
+  
+ 
+.wrapper {
+  position: relative;
+  margin-bottom: 1rem;
+  margin-top: 1rem; 
+}
+  
+
+.wrapper label {
+  display: block;
+  padding: 12px 0 12px 48px;
+}
+  
+
+.wrapper input {
+  height: 40px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 40px;
+}
+  
+
+.wrapper input + label::before {
+  border: 2px solid;
+  content: "";
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 40px;
+}
+  
+.wrapper input + label::after {
+  content: "";
+  border: 4px solid;
+  border-left: 0;
+  border-top: 0;
+  height: 20px;
+  left: 14px;
+  opacity: 0;
+  position: absolute;
+  top: 6px;
+  transform: rotate(45deg);
+  transition: opacity 0.2s ease-in-out;
+  width: 12px;
+}
+  
+
+.wrapper input:checked + label::after {
+  opacity: 1;
+}
+
+/* registro */
+
+.form{
+  background-color: #fff;
+  margin: auto;
+  width: 90%;
+  max-width: 400px;
+  padding: 4.5em 3em;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px -5px rgb(0, 0, 0 / 30%);
+}
+
+.form_title{
+  font-size: 2rem;
+  margin-bottom: .5em;
+}
+
+.form_parrafo{
+  font-weight: 300;
+}
+
+.form_link{
+  font-weight: 400;
+  --color: black;
+}
+
+.form_container{
+  margin-top: 3em;
+  display:  grid;
+  gap: 2.5em;
+}
+
+.form_group{
+  position: relative;
+  color: rgba(53, 51, 51, 0.875);
+}
+
+.form_input{
+  width: 100%;
+  color: rgba(53, 51, 51, 0.875);
+  font-size: 1rem;
+  padding: .6em .3em;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--color);
+
+}
+
+.form_input:focus + .form_label, 
+.form_input:not(:placeholder-shown) + .form_label{
+  transform: translateY(-12px) scale(.7);
+  transform-origin: left top;
+  color: darkred ;
+}
+
+.form_label{
+  color: var(--color);
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  transform:  translateY(10px);
+  transition:  transform .5s, color .3s;
+}
+
+.form_submit{
+   background: rgb(39, 39, 166);
+   color:#fff;
+   font-weight: 300 ;
+   font-size:  1rem;
+   padding:  .8em 0;
+   border: none;
+   border-radius: .5em;
+
+   
+}
+
+.form_lines{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(39, 39, 166);
+    transform:  scale(0);
+    transform: left bottom;
+    transition: transform .4s;
+}
+
+.form_input:focus ~ .form_lines, 
+.form_input:not(:placeholder-shown) ~ .form_lines{
+  transform: scale(1);
+}
+
+
