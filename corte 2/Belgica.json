@@ -28,12 +28,12 @@
         {"nombre":"Paul Van Himst","goles":30},
         {"nombre":"Marc Wilmots","goles":39}
     ],
-    "estadio":[
-        {"nombre":"Estadio Rey Balduino"},
-        {"segundo_nombre":"Estadio Rey Balduino"},
-        {"dirección":"Marathonlaan 135/2, 1020 Brussel, Bélgica"},
-        {"capacidad":"50.093"}
-    ],
+    "estadio":{
+        "nombre":"Estadio Rey Balduino",
+        "segundo_nombre":"Estadio Rey Balduino",
+        "dirección":"Marathonlaan 135/2, 1020 Brussel, Bélgica",
+        "capacidad":"50.093"
+    },
     "jugadores":[
         {
             "nombre":"Thibaut",
