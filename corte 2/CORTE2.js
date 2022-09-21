@@ -140,11 +140,41 @@ let artistas=[
         "nacionalidad":"Estados-unidos",
         "Genero":"Alternativa-independiente" ,
         "canciones": [
-            {"nombre": "Radioactive", "reproduciones":1400000000},
-            {"nombre": "Believer ", "reproduciones":2290000000},
-            {"nombre": "Demons", "reproduciones":1012000000},
+            {
+                "nombre": "Radioactive", 
+                "reproduciones":1400000000
+            },
+            {
+                "nombre": "Believer ",
+                "reproduciones":2290000000
+            },
+            {
+                "nombre": "Demons",
+                "reproduciones":1012000000
+            },
         ]
     }
 
 ]
 console.log(artistas)
+
+
+let classified=[
+
+    {
+        "nombre":"Argentina",
+        "nombrepais": "Argentina",
+        "colores":[
+            {"color":""},
+            {"color":""},
+
+        ],
+
+        "titulos-ganados":[
+
+        ],
+        "nombrecapitan":"",
+        "nombrecoach":"",
+
+    }
+]
