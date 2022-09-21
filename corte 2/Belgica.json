@@ -2,7 +2,7 @@
 {
     "nombre":"Selección de fútbol de Bélgica",
     "nombre_pais": "Bélgica",
-    "nombres_alternativos": "Unión Real Belga de Sociedades de Fútbol Asociación",
+    "nombre_alternativo": "Unión Real Belga de Sociedades de Fútbol Asociación",
     "colores_Pri":[
         {"color":"Rojo"},
         {"color":"Negro"},
