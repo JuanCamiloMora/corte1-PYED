@@ -49,3 +49,102 @@ if(age >= 22){
 else{
     alert("es menor a 22 años")
 }
+
+
+// clase 20/09/2022
+
+// Array = una cajita para guardar cosas
+
+// let colores= ["azul", "rojo", "negro", "blanco"] la compocición comienza desde 0
+
+let colores= ["azul", "rojo", "negro", "blanco"]
+
+colores[2] 
+// va a salir el negro
+
+let auto={
+    "marca": "BMW",
+    "llantas": 4,
+    "circulación": true,
+    "dueño": null
+}
+
+auto.llantas // =4
+
+let autos=[
+
+    {"marca":"audi"},
+    {"marca":"chevrolet"}
+]
+
+
+let animales=[
+    {
+        "animales":"gato"
+    },
+
+    {
+        "animales":"perro"
+    },
+
+    {
+        "animales":"fenix"
+    },
+
+    {
+        "animales":"pajaro"
+    },
+
+    {
+        "animales":"pez"
+    }
+]
+
+let pais=[
+
+    {"nombre":"españa"},
+    {"capital":"Madrid"},
+    {"kilometros":8007},
+    {"Idioma":"Español"},
+    {"PIB":"1,281 billones USD"}
+
+]
+console.log(pais)
+
+let artistas=[
+
+    {
+        "nombre":"Andres Cepeda",
+        "nacionalidad":"Colombia",
+        "Genero":"Pop-rock y pop" ,
+        "canciones": [
+            {"nombre": "Dejame-ir", "reproduciones":67000000},
+            {"nombre": "Magia", "reproduciones":155000000},
+            {"nombre": "Besos-usados", "reproduciones":1600000},
+        ]
+    },
+
+    {
+        "nombre":"Sebastián Yatra",
+        "nacionalidad":"Colombia",
+        "Genero":"Poplatino, balada, reguetón" ,
+        "canciones": [
+            {"nombre": "Traisionera", "reproduciones":567000000},
+            {"nombre": "Robarte-un-beso ", "reproduciones":1553000000},
+            {"nombre": "Un-año", "reproduciones":693000000},
+        ]
+    },
+
+    {
+        "nombre":"imagine-dragons",
+        "nacionalidad":"Estados-unidos",
+        "Genero":"Alternativa-independiente" ,
+        "canciones": [
+            {"nombre": "Radioactive", "reproduciones":1400000000},
+            {"nombre": "Believer ", "reproduciones":2290000000},
+            {"nombre": "Demons", "reproduciones":1012000000},
+        ]
+    }
+
+]
+console.log(artistas)

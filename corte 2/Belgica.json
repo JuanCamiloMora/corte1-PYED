@@ -1,0 +1,138 @@
+
+{
+    "nombre":"Selección de fútbol de Bélgica",
+    "nombre_pais": "Bélgica",
+    "nombres_alternativos": "Unión Real Belga de Sociedades de Fútbol Asociación",
+    "colores_Pri":[
+        {"color":"Rojo"},
+        {"color":"Negro"},
+        {"color":"Amarillo"}
+    ],
+    "color_Seg":[
+        {"color":"Blanco"},
+        {"color":"Azul"},
+        {"color":"Naranja"}
+    ],
+    "titulos_ganados":[
+        {"premio":"mundial Rusia 2018-tercer lugar"},
+        {"premio":"mundial Mexico 1986-cuarto lugar"}      
+    ],
+    "nombre_capitan":"Eden Hazard",
+    "nombre_coach":"Roberto Martínez",
+    "logourl": "https://e7.pngegg.com/pngimages/792/828/png-clipart-belgium-national-football-team-2018-fifa-world-cup-belgian-first-division-a-cercle-brugge-k-s-v-football-emblem-logo.png",
+    "abreviación":"BEL",
+    "tops_scorers":[
+        {"nombre":"Romelu Lukaku","goles":68},
+        {"nombre":"Eden Hazard","goles":33},
+        {"nombre":"Bernard Voorhoof","goles":30},
+        {"nombre":"Paul Van Himst","goles":30},
+        {"nombre":"Marc Wilmots","goles":39}
+    ],
+    "estadio":[
+        {"nombre":"Estadio Rey Balduino"},
+        {"segundo_nombre":"Estadio Rey Balduino"},
+        {"dirección":"Marathonlaan 135/2, 1020 Brussel, Bélgica"},
+        {"capacidad":"50.093"}
+    ],
+    "jugadores":[
+        {
+            "nombre":"Thibaut",
+            "segundo_nombre":"Courtois",
+            "edad":30,
+            "altura_cm":200,
+            "posición":"portero",
+            "club":"real madrid",
+            "numero_del_jugador":1
+        },
+        {
+            "nombre":"Arthur",
+            "segundo_nombre":"Theate",
+            "edad":22,
+            "altura_cm-":185,
+            "posición":"Defensa central",
+            "club":"Stade Rennais FC",
+            "numero_del_jugador":3
+        },
+        {
+            "nombre":"Brandon",
+            "segundo_nombre":"Mechele",
+            "edad":29,
+            "altura_cm":190,
+            "posición":"Defensa central",
+            "club":"Club Brujas KV",
+            "numero_del_jugador":4
+        },
+        {
+            "nombre":"Leander",
+            "segundo_nombre":"Dendoncker",
+            "edad":27,
+            "altura_cm":191,
+            "posición":"pivote",
+            "club":"Aston Villa",
+            "numero_del_jugador":4
+        },
+        {
+            "nombre":"Timothy",
+            "segundo_nombre":"Castagne",
+            "edad":26,
+            "altura_cm":185,
+            "posición":"Lateral derecho",
+            "club":"Leicester City",
+            "numero_del_jugador":21
+        },
+        {
+            "nombre":"Axel",
+            "segundo_nombre":"Witsel",
+            "edad":33,
+            "altura_cm":186,
+            "posición":"pivote",
+            "club":"Atlético de Madrid",
+            "numero_del_jugador":6
+        },
+        {
+            "nombre":"Youri",
+            "segundo_nombre":"Tielemans",
+            "edad":26,
+            "altura_cm":176,
+            "posición":"mediocentro",
+            "club":"Leicester City",
+            "numero_del_jugador":8
+        },
+        {
+            "nombre":"Charles",
+            "segundo_nombre":"De Ketelaere",
+            "edad":21,
+            "altura_cm":192,
+            "posición":"Mediocentro ofensivo",
+            "club":"AC Milan",
+            "numero_del_jugador":11
+        },
+        {
+            "nombre":"Leandro",
+            "segundo_nombre":"Trossard",
+            "edad":27,
+            "altura_cm":172,
+            "posición":"Extremo izquierdo",
+            "club":"Brighton & Hove Albion",
+            "numero_del_jugador":17
+        },
+        {
+            "nombre":"Loïs",
+            "segundo_nombre":"Openda",
+            "edad":22,
+            "altura_cm":175,
+            "posición":"Delantero centro",
+            "club":"RC Lens",
+            "numero_del_jugador":9
+        },
+        {
+            "nombre":"Dries",
+            "segundo_nombre":"Mertens",
+            "edad":35,
+            "altura_cm":169,
+            "posición":"Delantero centro",
+            "club":"Galatasaray",
+            "numero_del_jugador":14
+        }
+    ]
+}
