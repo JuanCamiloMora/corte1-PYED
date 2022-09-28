@@ -9,7 +9,6 @@
    }
    body {
     background-color: #1c1d1f;
-    height: 100vh;
    }
 
    .nav1 {
@@ -186,6 +185,14 @@
   }
 
   /* SOCIAL MENU */
+  .social-menu {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+  }
   .social-menu ul{  
     position: absolute;  
     top: 50%;  
