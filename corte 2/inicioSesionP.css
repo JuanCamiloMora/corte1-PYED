@@ -55,46 +55,46 @@ input[type="checkbox"]{
   font-weight: 600;
   text-align: center;
 }
-.container form{
+.container {
   margin-top: -20px;
 }
-.container form .data{
+.container  .data{
   height: 45px;
   width: 100%;
   margin: 40px 0;
 }
-form .data label{
+ .data label{
   font-size: 18px;
 }
-form .data input{
+ .data input{
   height: 100%;
   width: 100%;
   padding-left: 10px;
   font-size: 17px;
   border: 1px solid silver;
 }
-form .data input:focus{
+ .data input:focus{
   border-color: #3498db;
   border-bottom-width: 2px;
 }
-form .forgot-pass{
+ .forgot-pass{
   margin-top: -8px;
 }
-form .forgot-pass a{
+ .forgot-pass a{
   color: #3498db;
   text-decoration: none;
 }
-form .forgot-pass a:hover{
+ .forgot-pass a:hover{
   text-decoration: underline;
 }
-form .btn{
+ .btn{
   margin: 30px 0;
   height: 45px;
   width: 100%;
   position: relative;
   overflow: hidden;
 }
-form .btn .inner{
+ .btn .inner{
   height: 100%;
   width: 300%;
   position: absolute;
@@ -103,10 +103,10 @@ form .btn .inner{
   background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
   transition: all 0.4s;
 }
-form .btn:hover .inner{
+ .btn:hover .inner{
   left: 0;
 }
-form .btn button{
+ .btn button{
   height: 100%;
   width: 100%;
   background: none;
@@ -118,13 +118,13 @@ form .btn button{
   letter-spacing: 1px;
   cursor: pointer;
 }
-form .signup-link{
+ .signup-link{
   text-align: center;
 }
-form .signup-link a{
+ .signup-link a{
   color: #3498db;
   text-decoration: none;
 }
-form .signup-link a:hover{
+ .signup-link a:hover{
   text-decoration: underline;
 }
